@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header id="header-restaurante">
+      <img src="" alt="Logo" class="logo" />
+      <h1>Carregando...</h1>
+
+      <div class="container-busca">
+        <input
+          type="text"
+          id="input-busca"
+          placeholder="🔍 Digite para buscar..." />
+      </div>
+    </header>
+
+    <nav id="barra-navegacao" class="menu-navegacao"></nav>
+
+    <main id="container-cardapio"></main>
+
+    <footer id="rodape-restaurante"></footer>
+
+    <div id="carrinho-bar" class="carrinho-bar" onclick="abrirModal()">
+        <div class="carrinho-info">
+            <span id="contador-itens">0 Itens</span>
+            <span id="total-carrinho">R$ 0,00</span>
+        </div>
+        <div class="carrinho-botao">
+            Ver Sacola 🛍️
+        </div>
+    </div>
+
+    <div id="modal-carrinho" class="modal-overlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Seu Pedido 🛒</h2>
+          <button id="btn-fechar-modal" onclick="fecharModal()">❌</button>
+        </div>
+
+        <div id="itens-carrinho-lista"></div>
+
+        <div class="modal-footer">
+            <div class="total-final">
+                <span>Total:</span>
+                <span id="modal-total-valor">R$ 0,00</span>
+            </div>
+            <button class="botao-enviar" onclick="finalizarPedido()">Confirmar e Enviar 🚀</button>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
