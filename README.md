@@ -5,7 +5,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-> **Acesse o projeto online:** [Clique aqui para ver o Cardápio](https://pouskzin.github.io/projeto-cardapio)
+> **Acesse o projeto online:** [Clique aqui para ver o Cardápio](https://pouskzin.github.io/projeto-cardapio/)
 
 ## 💻 Sobre o Projeto
 
@@ -47,3 +47,4 @@ O projeto foi desenvolvido utilizando **Vanilla JavaScript**, sem dependência d
 1. Clone o repositório:
 ```bash
 git clone [https://github.com/pouskzin/projeto-cardapio.git](https://github.com/pouskzin/projeto-cardapio.git)
+
